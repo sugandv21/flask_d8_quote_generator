@@ -5,7 +5,7 @@ function App() {
   const [quote, setQuote] = useState("Click button to get a random quote!");
   const [loading, setLoading] = useState(false);
 
-  const API_BASE = "http://127.0.0.1:5000";
+  const API_BASE = "https://flask-d8-quote-generator.onrender.com";
 
   const fetchQuote = async () => {
     setLoading(true);
