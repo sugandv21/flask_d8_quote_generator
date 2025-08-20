@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 CORS(app, resources={r"/api/*": {"origins": [
     "http://localhost:5173",  
-    "https://taskmanagerd8.netlify.app/"  
+    "https://quotegeneratorfd8.netlify.app"  
 ]}})
 
 quotes = [
@@ -23,5 +23,6 @@ def get_quote():
 
 if __name__ == "__main__":
     app.run(debug=False)
+
 
 
