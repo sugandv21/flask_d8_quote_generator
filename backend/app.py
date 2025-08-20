@@ -22,4 +22,5 @@ def get_quote():
     return jsonify({"quote": random.choice(quotes)})
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False)
+
